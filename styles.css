@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(14, 14, 14);
+  color: rgb(235, 235, 235);
+  font-family: sans-serif;
+}
+
+/* Hero Section */
+.nav-bar {
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: 80vw;
+  margin: 30px auto 0;
+
+}
+
+.nav-bar .logo {
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.nav-links ul{
+ display: flex;
+ justify-content: space-evenly;
+ width: 500px;
+ list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color:rgb(235, 235, 235)
+}
+
+.nav-links a:active {
+  color: rgb(235, 235, 235)
+}
+
+
+
