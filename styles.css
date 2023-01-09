@@ -169,14 +169,20 @@ body {
 }
 
 /* Right Side (Featured Content) */
-#Img {
-  border: 1px solid orange;
+/* .work-right-content {
+  border: 1px solid #525252;
+  border-radius: 5px;
+} */
+
+.featured-img{
+  border-radius: 5px;
   height: 300px;
   width: 500px;
 }
 
 .featured-project-heading {
   font-size: 1.5rem;
+  color: #13be68;
   margin: 20px 0 10px
 }
 
@@ -193,16 +199,16 @@ body {
   font-weight: bold;
 }
 
-.tech-used-icons .tech-1 {
+.tech-1 {
   background: #FFD600;
   color: black
 }
 
-.tech-used-icons .tech-2 {
+.tech-2 {
   background: #2965f1;
 }
 
-.tech-used-icons .tech-3 {
+.tech-3 {
   background: #ff5900;
 }
 
@@ -217,5 +223,96 @@ body {
   margin: 30px auto 0;
 }
 
+/* Project Section */
+  .project-filter {
+    color: rgb(199, 199, 199);
+    font-size: 20px;
+    margin: 20vh 0 40px 12rem
+  }
+
+  .project-filter .filter-active {
+    color:#13be68;
+  }
+
+  .project-section {
+    width: 75vw;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .project-card {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 35px;
+    margin-bottom: 40px;
+    border: 1px solid #525252;
+    border-radius: 30px;
+  }
+
+  .project-title {
+    margin: 30px 0;
+    font-size: 2rem;
+    color: #13be68;
+  }
+
+  .project-text {
+    width: 90%;
+    line-height: 1.6;
+  }
+
+  #Img2 {
+    height: auto;
+    width: 600px;
+    border-radius: 10px;
+  }
+
+  .tech-used-icons2 {
+    font-size: 14px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+
+  .tech-used-icons2 li {
+    padding: 5px 8px;
+  }
+
+  .project-card button {
+    font-size: 16px;
+    margin-top: 25px;
+    margin-right: 10px;
+    padding: 10px 25px;
+  }
+
+  .project-btn-1 {
+    background: none;
+    color: #13be68;
+    border: 1px solid #13be68;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+  }
+
+  .project-btn-2 {
+    background: none;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+  }
+
+  .project-btn-1:hover {
+    background: #13be68;
+    color: #fff;
+    border: 1px solid #13be68;
+  }
+
+  .project-btn-2:hover {
+    background: #fff;
+    color: #000;
+  }
 
 
