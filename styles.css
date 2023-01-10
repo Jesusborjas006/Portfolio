@@ -10,6 +10,10 @@ body {
   font-family: sans-serif;
 }
 
+li {
+  list-style: none;
+}
+
 /* Nav Bar (hero section) */
 .nav-bar {
   font-size: 24px;
@@ -315,4 +319,73 @@ body {
     color: #000;
   }
 
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90vw;
+  padding: 20px;
+  text-align: center;
+  margin: 30vh auto 10px;
+  border-top: 1px solid rgb(55, 55, 55);
+}
 
+.footer .logo{
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  left: 110px;
+  width: 350px;
+  font-size: 20px;
+  margin-bottom: 30px;
+  /* margin-left: 140px; */
+}
+
+.footer-links ul{
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+ }
+ 
+ .footer-links a {
+   text-decoration: none;
+   color:rgb(235, 235, 235);
+   position: relative;
+ }
+ 
+ .footer-links a:active {
+   color: rgb(235, 235, 235);
+ }
+ 
+ /* Line under nav links */
+ .footer-links a::after {
+   content: "";
+   width: 0;
+   height: 3px;
+   position: absolute;
+   bottom: -5px;
+   left: 50%;
+   transform: translateX(-50%);
+   background: -webkit-linear-gradient(60deg, #13bea9, #429230, #51d02f);
+   transition: width 0.3s;
+ }
+ 
+ .footer-links a:hover::after {
+   width: 100%;
+ }
+
+ .footer-email {
+  font-size: 20px;
+  margin: 15px 0;
+ }
+
+ .copyright-text {
+  text-align: center;
+  padding: 20px;
+ }
