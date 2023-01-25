@@ -20,6 +20,15 @@ li {
   list-style: none;
 }
 
+a {
+  color: #fff;
+  text-decoration: none;
+  /* padding: 10px 20px; */
+}
+
+a:hover {
+  color: #000;
+}
 /* Fade in transition */
 .reveal {
   position: relative;
@@ -90,8 +99,8 @@ li {
 
 .hero-content {
   width: 45vw;
-  margin-top: 15rem;
-  margin-left: 5rem;
+  margin: 10rem auto 0;
+  text-align: center;
 }
 
 .hero-heading {
@@ -103,14 +112,15 @@ li {
 
 .hero-text {
   margin-top: 20px;
-  line-height: 1.5;
-  font-size: 17px;
+  line-height: 1.7;
+  font-size: 18px;
 }
 
 .icon-links {
   display: flex;
   justify-content: space-around;
   width: 28%;
+  margin: 0 auto;
 }
 
 .hero-icon {
@@ -222,6 +232,7 @@ li {
   width: 87vw;
   margin: 0 auto;
   margin-top: 20vh;
+  padding: 20px;
 }
 
 .work-heading {
@@ -281,7 +292,20 @@ li {
   margin: 30px auto 0;
   background: none;
   color: #13be68;
-  border: 1px solid #13be68;
+  border: 2px solid #13be68;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.work-btn2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 15px;
+  width: 100%;
+  margin: 20px auto;
+  background: none;
+  color: #fff;
+  border: 2px solid #fff;
   transition: 0.3s ease-in-out;
   cursor: pointer;
 }
@@ -290,6 +314,11 @@ li {
   background: #13be68c9;
   color: #fff;
   border: 1px solid #13be68c9;
+}
+
+.work-btn2:hover {
+  background: #fff;
+  color: #000;
 }
 
 /* Project Section */
@@ -368,9 +397,9 @@ li {
   font-size: 16px;
   margin-top: 25px;
   margin-right: 10px;
-  padding: 10px 20px;
   margin-bottom: 20px;
   border-radius: 10px;
+
 }
 
 .project-btn-1 {
@@ -379,6 +408,7 @@ li {
   border: 1px solid #13be68;
   transition: 0.3s ease-in-out;
   cursor: pointer;
+  padding: 10px 20px;
 }
 
 .project-btn-2 {
@@ -387,6 +417,7 @@ li {
   border: 1px solid #ffffff;
   transition: 0.3s ease-in-out;
   cursor: pointer;
+  padding: 10px 20px;
 }
 
 .project-btn-1:hover {
