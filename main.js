@@ -25,6 +25,8 @@ const rockPaperScissors = document.querySelector(
   ".rock-paper-scissors-project"
 );
 const diceGame = document.querySelector(".dice-game-project");
+const whatsForDinner = document.querySelector(".whats-for-dinner-project");
+const quoteGenerator = document.querySelector(".quote-generator-project")
 
 // Filter type Text
 const allProjectText = document.querySelector("#all-projects");
@@ -44,6 +46,8 @@ function displayAllProjects() {
   ticTacToe.classList.remove("hidden");
   rockPaperScissors.classList.remove("hidden");
   diceGame.classList.remove("hidden");
+  whatsForDinner.classList.remove("hidden");
+  quoteGenerator.classList.remove("hidden");
   webDevelopmentText.classList.remove("filter-active");
   gameProjectText.classList.remove("filter-active");
   otherProjectText.classList.remove("filter-active");
@@ -55,6 +59,8 @@ function displayWebProjects() {
   ticTacToe.classList.add("hidden");
   rockPaperScissors.classList.add("hidden");
   diceGame.classList.add("hidden");
+  whatsForDinner.classList.remove("hidden");
+  quoteGenerator.classList.remove("hidden");
   allProjectText.classList.remove("filter-active");
   gameProjectText.classList.remove("filter-active");
   otherProjectText.classList.remove("filter-active");
@@ -66,6 +72,8 @@ function displayGameProjects() {
   ticTacToe.classList.remove("hidden");
   rockPaperScissors.classList.remove("hidden");
   diceGame.classList.remove("hidden");
+  whatsForDinner.classList.add("hidden");
+  quoteGenerator.classList.add("hidden");
   allProjectText.classList.remove("filter-active");
   webDevelopmentText.classList.remove("filter-active");
   otherProjectText.classList.remove("filter-active");
@@ -77,6 +85,8 @@ function displayOtherProjects() {
   ticTacToe.classList.add("hidden");
   rockPaperScissors.classList.add("hidden");
   diceGame.classList.add("hidden");
+  whatsForDinner.classList.remove("hidden");
+  quoteGenerator.classList.remove("hidden");
   allProjectText.classList.remove("filter-active");
   webDevelopmentText.classList.remove("filter-active");
   gameProjectText.classList.remove("filter-active");
