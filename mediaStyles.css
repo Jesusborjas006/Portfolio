@@ -51,6 +51,16 @@
     text-align: center;
   }
 
+  /* Contact */
+  .contact-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-right {
+    width: 100%;
+  }
+
   /* Footer */
   .footer {
     flex-direction: column;
@@ -73,9 +83,6 @@
 
 /* iPads, Tablets */
 @media (min-width: 651px) and (max-width: 1024px) {
-  body {
-    background-color: red;
-  }
   /* Hero Section */
   .nav-links ul {
     font-size: 20px;
@@ -93,7 +100,8 @@
   }
 
   .icon-links {
-    margin-left: 30%;
+    position: relative;
+    right: 20px;
   }
 
   .arrow span {

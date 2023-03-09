@@ -117,10 +117,9 @@ a:hover {
 }
 
 .icon-links {
-  display: flex;
-  justify-content: space-around;
-  width: 28%;
-  margin: 0 auto;
+  position: relative;
+  right: 10px;
+  top: 20px;
 }
 
 .hero-icon {
@@ -300,6 +299,71 @@ a:hover {
   background-color: #429230;
 }
 
+/* Contact Section */
+.contact-section {
+  margin: 30vh auto 0;
+  padding: 100px 0;
+  background: -webkit-linear-gradient(60deg, #13bea9, #429230, #51d02f);
+}
+
+.contact-card {
+  background: rgb(40, 40, 40);
+  width: 88vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.contact-heading {
+  font-size: 38px;
+  border-bottom: 3px solid #13be68;
+  margin-bottom: 30px;
+}
+
+.contact-left p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.contact-right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.contact-right input {
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.contact-right textarea {
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.contact-btn {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+}
+
+.contact-btn:hover {
+  background-color: #429230;
+  color: #fff;
+}
+
 /* Footer */
 .footer {
   display: flex;
@@ -308,8 +372,7 @@ a:hover {
   width: 100vw;
   padding: 40px;
   text-align: center;
-  margin: 30vh auto 10px;
-  border-top: 1px solid rgb(55, 55, 55);
+  margin: 0vh auto 10px;
 }
 
 .footer .logo {
