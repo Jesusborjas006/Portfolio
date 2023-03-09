@@ -26,8 +26,7 @@ const rockPaperScissors = document.querySelector(
 );
 const diceGame = document.querySelector(".dice-game-project");
 const whatsForDinner = document.querySelector(".whats-for-dinner-project");
-const quoteGenerator = document.querySelector(".quote-generator-project")
-
+const quoteGenerator = document.querySelector("quote-generator-project");
 // Filter type Text
 const allProjectText = document.querySelector("#all-projects");
 const webDevelopmentText = document.querySelector(".web-development");
