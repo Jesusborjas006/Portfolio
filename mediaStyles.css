@@ -5,7 +5,7 @@
   }
 
   /* Hero Section */
-  .nav-links ul{
+  .nav-links ul {
     font-size: 16px;
     width: 300px;
   }
@@ -44,42 +44,6 @@
     margin: 20px 0;
   }
 
-  /* Work Section */
-  .featured-work-section {
-    flex-direction: column;
-  }
-
-  .work-heading {
-    text-align: center;
-  }
-
-  .featured-project-text {
-    margin-bottom: 40px;
-  }
-
-  .featured-img {
-    width: 400px;
-  }
-
-  .work-right-content {
-    width: 400px;
-    margin-left: 15px;
-  }
-
-  .featured-project-text {
-    width: 95%;
-  }
-
-  /* Project Cards */
-  .project-filter {
-    text-align: center;
-    margin-left: 0;
-  }
-
-  .project-section {
-    justify-content: center;
-  }
-
   /* Footer */
   .footer {
     flex-direction: column;
@@ -94,7 +58,7 @@
   .footer-email {
     margin-top: 20px;
   }
-  
+
   .icon-links-2 {
     margin-left: -30px;
   }
@@ -103,7 +67,7 @@
 /* iPads, Tablets */
 @media (min-width: 501px) and (max-width: 1024px) {
   /* Hero Section */
-  .nav-links ul{
+  .nav-links ul {
     font-size: 20px;
     width: 350px;
   }
@@ -143,44 +107,6 @@
     margin: 20px 0;
   }
 
-  /* Work Section */
-  .featured-work-section {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .work-heading {
-    text-align: center;
-  }
-
-  .featured-project-text {
-    margin-bottom: 40px;
-  }
-
-  .featured-img {
-    width: 500px;
-    height: auto;
-  }
-
-  .work-right-content {
-    width: 500px;
-    margin-left: 2%;
-  }
-
-  .featured-project-text {
-    width: 95%;
-  }
-
-  /* Project Cards */
-  .project-filter {
-    text-align: center;
-    margin-left: 0;
-  }
-
-  .project-section {
-    justify-content: center;
-  }
-
   /* Footer */
   .footer {
     flex-direction: column;
@@ -195,9 +121,8 @@
   .footer-email {
     margin-top: 20px;
   }
-  
+
   .icon-links-2 {
     margin-left: -30px;
   }
-
 }
