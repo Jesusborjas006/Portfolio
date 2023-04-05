@@ -196,6 +196,7 @@ a:hover {
 .expertise-sub-heading {
   font-size: 1.8rem;
   margin-top: 15px;
+  margin-bottom: 20px;
 }
 
 .expertise-card {
@@ -209,18 +210,18 @@ a:hover {
 .language-img {
   width: 60px;
   height: auto;
-  margin: 30px 10px;
+  margin: 10px 10px 0;
 }
 
 .language-img2 {
   width: 70px;
   height: auto;
-  margin: 30px 10px;
+  margin: 0px 10px;
 }
 
 .language-img3 {
   height: 70px;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 /* Project Section */
@@ -255,29 +256,45 @@ a:hover {
 .work-heading {
   text-align: center;
   margin-top: 25vh;
+  margin-bottom: 9vh;
   font-size: 3.5rem;
 }
 
 .project-card {
   width: 95%;
   margin: 0 auto;
-  cursor: pointer;
 }
 
 .project-img {
   width: 100%;
   border-radius: 10px;
   transition: all ease-in-out 0.2s;
+  cursor: pointer;
 }
 
 .project-img:hover {
   filter: brightness(85%);
 }
 
+.project-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .project-name {
   font-size: 26px;
-  margin-top: 10px;
+  margin: 14px 0;
   letter-spacing: 1.3px;
+}
+
+.hero-icon-2 {
+  color: #b8b6b6;
+  font-size: 18px;
+}
+
+.hero-icon-2:hover {
+  color: #fff;
 }
 
 .see-more-btn {
